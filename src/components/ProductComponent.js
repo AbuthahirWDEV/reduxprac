@@ -22,8 +22,8 @@ const ProductComponent = () => {
 
     return (
       // Show the product in a card
-      <div style={{ marginTop: "20px" }}>
-        <div className="four wide column" key={id}>
+      <div style={{ marginTop: "20px" }} key={id}>
+        <div className="four wide column" >
           <div
             className=" ui link cards"
             onClick={() => handleSelectedProduct(id)}
